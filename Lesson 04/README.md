@@ -1,5 +1,6 @@
 # Bootstrap练习
 
+## 导航栏
     <nav class="navbar navbar-default" role="navigation">
 				<div class="navbar-header">
 					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Brand</a>
@@ -67,8 +68,33 @@
 							</ul>
 						</li>
 					</ul>
-				</div>
-				
+				</div>				
 			</nav>
+
+## 分页
+
+    			<ul class="pagination">
+				<li>
+					 <a href="#">Prev</a>
+				</li>
+				<li>
+					 <a href="#">1</a>
+				</li>
+				<li>
+					 <a href="#">2</a>
+				</li>
+				<li>
+					 <a href="#">3</a>
+				</li>
+				<li>
+					 <a href="#">4</a>
+				</li>
+				<li>
+					 <a href="#">5</a>
+				</li>
+				<li>
+					 <a href="#">Next</a>
+				</li>
+			</ul>
 
 # Jqgrid练习
