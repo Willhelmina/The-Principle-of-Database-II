@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv=¡±Content-Type¡± content=¡±text/html; charset=utf-8¡å>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Jqgrid Test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/themes/redmond/jquery-ui.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/free-jqgrid/4.15.5/css/ui.jqgrid.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/free-jqgrid/4.15.5/jquery.jqgrid.min.js"></script>
+    <script>
+    //<![CDATA[
+    $(function () {
+        "use strict";
+        $("#grid").jqGrid({
+            colModel: [
+                { name: "project_id" },
+                { name: "segment_st" },
+                { name: "segment_tt" }
+            ],
+            data: [
+                { id: 10, project_id: "20171212ACcn-en", segment_st: "zai jian ba nin", segment_tt: "Byeeeeeeee" },
+                { id: 20, project_id: "20180103BBcn-en", segment_st: "bu hui ba bu hui ba", segment_tt: "You don't say" },
+                { id: 30, project_id: "20190914DDcn-en", segment_st: "hai", segment_tt: "Oops" },
+                { id: 40, project_id: "20191123DAcn-en", segment_st: "xiang duo le", segment_tt: "Who sent you" },
+                { id: 50, project_id: "20200103EAcn-en", segment_st: "ni sei", segment_tt: "I don't know her" }
+            ]
+        });
+    });
+    //]]>
+    </script>
+</head>
+<body>
+<table id="grid"></table>
+</body>
+</html>
