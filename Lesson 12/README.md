@@ -1,7 +1,8 @@
 # Lesson 12
 · 将本小组数据库设计完成，并编写尽可能多会用到的sql语句
 
-> <?php
+> 
+<?php
 	
 	$sql="select * from teamproject where team_id = '$teamname'";//团队项目
 	$sql="select * from teamtm where user_id = '$username'";//团队记忆库列表
